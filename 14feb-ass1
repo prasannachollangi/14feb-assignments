@@ -1,0 +1,11 @@
+# program to find no.of digits in a given number:-
+n=int(input('Enter a number:'))
+i=0
+while n>0:
+   rem=n%10
+   n=n//10
+   i+=1
+print('No.of digits in a given number is:',i)   
+OUTPUT:-
+Enter a number:2345
+No.of digits in a given number is: 4
